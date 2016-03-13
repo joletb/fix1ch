@@ -1,2 +1,6 @@
 # fix1ch
-Flags improperly flagged mono audio as stereo in AAC files.
+Fixes improperly flagged stereo audio in AAC files.
+# Usage
+```
+fix1ch.pl audio.aac
+```
