@@ -14,7 +14,7 @@ my %opts;
 my $VERSION = "0.01";
 getopts('vhmrf:i:', \%opts);
 
-my $audfile	= $opts{'i'} ? $opts{'i'} : "${infile}.aac";
+my $audfile =  $opts{'i'} ? $opts{'i'} : "${infile}.aac";
 my $outfile = "${infile}-fixed.aac";
 
 open (INFILE, "$infile") or die("No input found for $infile : $!");
